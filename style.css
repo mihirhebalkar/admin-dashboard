@@ -12,9 +12,7 @@
     background-color: aquamarine;
 }
 
-.container div{
-    border: 1px solid black;
-}
+
 
 .header{
     grid-column: 2/3;
@@ -25,6 +23,15 @@
 
 }
 
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#search{
+    height: 30px;
+}
 .sidebar{
     grid-column: 1/2;
     grid-row: 1/7;
