@@ -12,7 +12,9 @@
     background-color: aquamarine;
 }
 
-
+.container div{
+    border: 1px solid black;
+}
 
 .header{
     grid-column: 2/3;
