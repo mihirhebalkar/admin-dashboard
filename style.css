@@ -1,9 +1,48 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(6,minmax(150px,1fr));
+
+    background-color: aquamarine;
 }
 
 .container div{
     border: 1px solid black;
-    
 }
+
+.header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.sidebar{
+    grid-column: 1/2;
+    grid-row: 1/7;
+}
+
+.navbar{
+    grid-area: 2/2/3/3;
+}
+
+.main{
+    grid-row:3/7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(5,minmax(150px,1fr));
+}
+
+.project{
+    grid-row: 1/6;
+    grid-column: 1/2;
+}
+
+.announcement{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.trending{
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+
