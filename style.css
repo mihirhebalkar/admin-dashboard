@@ -21,9 +21,29 @@
     grid-row: 1/2;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #f0f9ff;
 
 }
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding-right: 50px;
+}
+
+.right img{
+    height: 40px;
+}
+
+.right .acc{
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
 
 .search{
     display: flex;
@@ -38,6 +58,19 @@
     grid-column: 1/2;
     grid-row: 1/7;
     background-color: #0ea5e9;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    padding-left: 60px;
+    padding-top: 72px;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.sidebar h2{
+    padding-bottom: 40px;
 }
 
 .navbar{
@@ -79,7 +112,7 @@
 }
 
 #bar{
-    width: 500px;
+    width: 700px;
     height: 30px;
     border-radius: 15px;
     border: 3px solid black;
