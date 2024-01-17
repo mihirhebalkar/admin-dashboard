@@ -12,10 +12,10 @@
     background-color: aquamarine;
 }
 
-.container div{
+/* .container div{
     border: 1px solid black;
 }
-
+ */
 .header{
     grid-column: 2/3;
     grid-row: 1/2;
@@ -69,6 +69,31 @@
     font-size: 24px;
 }
 
+.sitems{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+}
+.dashboard img{
+    padding-right: 10px;
+    height: 60px;
+    
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+.sitems img{
+    height: 40px;
+}
 .sidebar h2{
     padding-bottom: 40px;
 }
