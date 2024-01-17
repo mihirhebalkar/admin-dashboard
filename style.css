@@ -123,7 +123,36 @@
 .project{
     grid-row: 1/6;
     grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    padding: 15px;
+    
 }
+
+.project .grid-item{
+    background-color: white;    
+    border-left: 10px solid darkgoldenrod;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.project .images{
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+
+}
+.project img{
+    height: 32px;
+    color: white;
+    opacity: 1;
+}
+
 
 .announcement{
     grid-column: 2/3;
